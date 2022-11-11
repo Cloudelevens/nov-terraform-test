@@ -16,7 +16,7 @@ variable "hw" {
 
 variable "name" {
   type = string
-  default = "vijen-update2-server1"
+  default = "vijen-update2-server2"
   description = "Enter your server name"
 }
 
