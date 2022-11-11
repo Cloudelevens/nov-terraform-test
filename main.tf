@@ -16,7 +16,7 @@ variable "hw" {
 
 variable "name" {
   type = string
-  default = "vijen-update2-server2"
+  default = "vijen-update2-server3"
   description = "Enter your server name"
 }
 
@@ -27,7 +27,7 @@ resource "aws_instance" "myawsserver" {
   tags = {
     Name = var.name
     Env = "Dev"
-    Owner = "vijendra"
+    Owner = "vijendra1"
   }
 }
 
